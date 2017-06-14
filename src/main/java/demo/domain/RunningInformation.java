@@ -23,6 +23,7 @@ public class RunningInformation {
     }
 
     private Long userId;
+    private static Long userIdCounter = 0l;
 
     @Id
     private String runningId;
@@ -42,12 +43,15 @@ public class RunningInformation {
     private UserInfo userInfo;
 
     public RunningInformation() {
-
+        userIdCounter++;
+        this.userId = userIdCounter;
     }
 
     @JsonCreator
     public RunningInformation(@JsonProperty("runningId") String runningId) {
         this.runningId = runningId;
+        userIdCounter++;
+        this.userId = userIdCounter;
     }
 
     public void updateHealthWarningLevel() {
