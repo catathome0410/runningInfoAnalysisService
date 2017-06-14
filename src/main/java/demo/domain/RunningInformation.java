@@ -1,6 +1,7 @@
 package demo.domain;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
@@ -27,11 +28,18 @@ public class RunningInformation {
 
     @Id
     private String runningId;
+
+    @JsonIgnore
     private String latitude;
+    @JsonIgnore
     private String longitude;
+    @JsonIgnore
     private String runningDistance;
+
     private String totalRunningTime;
     private int heartRate;
+
+    @JsonIgnore
     private String timestamp;
     private HealthWarningLevel healthWarningLevel = HealthWarningLevel.LOW;
 
