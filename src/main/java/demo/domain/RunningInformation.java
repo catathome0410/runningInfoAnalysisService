@@ -19,18 +19,20 @@ import java.util.Date;
 public class RunningInformation {
 
     enum HealthWarningLevel{
-        LOW, NORMAL, HIGH
+        LOW, NORMAL, HIGH, NO_DATA
     }
+
+    private Long userId;
 
     @Id
     private String runningId;
-
     private String latitude;
     private String longitude;
     private String runningDistance;
     private String totalRunningTime;
     private int heartRate;
     private String timestamp;
+    private HealthWarningLevel healthWarningLevel = HealthWarningLevel.LOW;
 
     @Embedded
     @AttributeOverrides({
@@ -40,12 +42,23 @@ public class RunningInformation {
     private UserInfo userInfo;
 
     public RunningInformation() {
-        this.heartRate = (int) (60 + 140*Math.random() );
+
     }
 
     @JsonCreator
     public RunningInformation(@JsonProperty("runningId") String runningId) {
-        this.heartRate = (int) (60 + 140*Math.random() );
         this.runningId = runningId;
+    }
+
+    public void updateHealthWarningLevel() {
+        if (this.heartRate >= 60 && this.heartRate <= 75) {
+            this.healthWarningLevel = HealthWarningLevel.LOW;
+        } else if (this.heartRate > 75 && this.heartRate <= 120) {
+            this.healthWarningLevel = HealthWarningLevel.NORMAL;
+        } else if (this.heartRate > 200) {
+            this.healthWarningLevel = HealthWarningLevel.HIGH;
+        } else {
+            this.healthWarningLevel = HealthWarningLevel.NO_DATA;
+        }
     }
 }

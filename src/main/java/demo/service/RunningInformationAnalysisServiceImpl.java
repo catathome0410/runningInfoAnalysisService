@@ -24,6 +24,10 @@ public class RunningInformationAnalysisServiceImpl implements RunningInformation
 
     @Override
     public List<RunningInformation> saveRunningInformation(List<RunningInformation> runningInfos) {
+        for (RunningInformation rInfo : runningInfos) {
+            rInfo.setHeartRate(60 + (int) (Math.random()*140) );
+            rInfo.updateHealthWarningLevel();
+        }
         return runningInformationRepository.save(runningInfos);
     }
 
