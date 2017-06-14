@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db08a88-ae59-4aed-b37c-35001d792c3c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/demo/domain/RunningInformation$HealthWarningLevel.class" afterPath="$PROJECT_DIR$/target/classes/demo/domain/RunningInformation$HealthWarningLevel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/demo/domain/RunningInformation.class" afterPath="$PROJECT_DIR$/target/classes/demo/domain/RunningInformation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/running-information-analysis-service-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/running-information-analysis-service-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/running-information-analysis-service-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/running-information-analysis-service-0.0.1-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformation.java" afterPath="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.txt" afterPath="$PROJECT_DIR$/Readme.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunningInformation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RunningInformation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/domain/RunningInformation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -102,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Readme.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Readme.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -153,12 +147,12 @@
         <option value="$PROJECT_DIR$/src/main/java/demo/service/RunningInformatoinAnalysisServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/RunningInfoAnalysisApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/Readme.txt" />
         <option value="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisService.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformationRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/rest/RunningInformationRestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformation.java" />
+        <option value="$PROJECT_DIR$/Readme.txt" />
       </list>
     </option>
   </component>
@@ -790,12 +784,12 @@
       <workItem from="1497182124826" duration="11649000" />
       <workItem from="1497195687032" duration="4023000" />
       <workItem from="1497200037700" duration="15511000" />
-      <workItem from="1497286610810" duration="22441000" />
+      <workItem from="1497286610810" duration="22634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61121000" />
+    <option name="totallyTimeSpent" value="61314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="202" y="25" width="1520" height="885" extended-state="0" />
@@ -1147,14 +1141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/RunningInfoAnalysisApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1169,24 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="54" column="60" lean-forward="false" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1228,6 +1196,32 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="54" column="60" lean-forward="false" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
