@@ -3,6 +3,10 @@ package demo.service;
 import demo.domain.RunningInformation;
 import demo.domain.RunningInformationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageImpl;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -43,8 +47,11 @@ public class RunningInformationAnalysisServiceImpl implements RunningInformation
 
     @Override
     public List<RunningInformation> findAllRunningInformation() {
-        List<RunningInformation> runningInfos = new ArrayList<>();
-        runningInformationRepository.findAll().forEach(runningInfos::add);
-        return runningInfos;
+        return runningInformationRepository.findAll(new Sort(Sort.Direction.DESC, "healthWarningLevel") );
+    }
+
+    @Override
+    public Page<RunningInformation> findAllRunningInformation(Pageable pageable) {
+        return runningInformationRepository.findAll(pageable);
     }
 }

@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db08a88-ae59-4aed-b37c-35001d792c3c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/demo/domain/RunningInformation$HealthWarningLevel.class" afterPath="$PROJECT_DIR$/target/classes/demo/domain/RunningInformation$HealthWarningLevel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/demo/domain/RunningInformation.class" afterPath="$PROJECT_DIR$/target/classes/demo/domain/RunningInformation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/demo/domain/RunningInformationRepository.class" afterPath="$PROJECT_DIR$/target/classes/demo/domain/RunningInformationRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/demo/rest/RunningInformationRestController.class" afterPath="$PROJECT_DIR$/target/classes/demo/rest/RunningInformationRestController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/demo/service/RunningInformationAnalysisService.class" afterPath="$PROJECT_DIR$/target/classes/demo/service/RunningInformationAnalysisService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/demo/service/RunningInformationAnalysisServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/demo/service/RunningInformationAnalysisServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/running-information-analysis-service-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/running-information-analysis-service-0.0.1-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/running-information-analysis-service-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/running-information-analysis-service-0.0.1-SNAPSHOT.jar.original" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformation.java" afterPath="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformationRepository.java" afterPath="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformationRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demo/rest/RunningInformationRestController.java" afterPath="$PROJECT_DIR$/src/main/java/demo/rest/RunningInformationRestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisService.java" afterPath="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunningInformation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RunningInformation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/domain/RunningInformation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+            <state relative-caret-position="22">
+              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,18 +79,8 @@
       <file leaf-file-name="RunningInformationRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/domain/RunningInformationRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RunningInformationAnalysisServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="45" column="66" lean-forward="true" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+            <state relative-caret-position="153">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,11 +88,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunningInformationRestController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RunningInformationAnalysisServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="54" column="60" lean-forward="false" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunningInformationRestController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/rest/RunningInformationRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="26" column="76" lean-forward="false" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
+            <state relative-caret-position="549">
+              <caret line="35" column="140" lean-forward="false" selection-start-line="35" selection-start-column="140" selection-end-line="35" selection-end-column="140" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,8 +125,8 @@
       <file leaf-file-name="RunningInformationAnalysisService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="374">
+              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,11 +164,11 @@
         <option value="$PROJECT_DIR$/src/main/java/demo/RunningInfoAnalysisApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/Readme.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/demo/rest/RunningInformationRestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformation.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisService.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformationRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/rest/RunningInformationRestController.java" />
       </list>
     </option>
   </component>
@@ -784,12 +800,12 @@
       <workItem from="1497182124826" duration="11649000" />
       <workItem from="1497195687032" duration="4023000" />
       <workItem from="1497200037700" duration="15511000" />
-      <workItem from="1497286610810" duration="9002000" />
+      <workItem from="1497286610810" duration="19996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47682000" />
+    <option name="totallyTimeSpent" value="58676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="202" y="25" width="1520" height="885" extended-state="0" />
@@ -884,7 +900,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -971,7 +989,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,7 +1063,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1157,14 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/RunningInfoAnalysisApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1175,20 +1189,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/rest/RunningInformationRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="26" column="76" lean-forward="false" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="374">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1197,26 +1201,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/domain/RunningInformationRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="45" column="66" lean-forward="true" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/domain/RunningInformation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        <state relative-caret-position="22">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/service/RunningInformationAnalysisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="54" column="60" lean-forward="false" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/rest/RunningInformationRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="35" column="140" lean-forward="false" selection-start-line="35" selection-start-column="140" selection-end-line="35" selection-end-column="140" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

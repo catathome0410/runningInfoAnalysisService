@@ -19,7 +19,7 @@ import java.util.Date;
 public class RunningInformation {
 
     enum HealthWarningLevel{
-        LOW, NORMAL, HIGH, NO_DATA
+        NO_DATA, LOW, NORMAL, HIGH
     }
 
     private Long userId;
@@ -59,7 +59,7 @@ public class RunningInformation {
             this.healthWarningLevel = HealthWarningLevel.LOW;
         } else if (this.heartRate > 75 && this.heartRate <= 120) {
             this.healthWarningLevel = HealthWarningLevel.NORMAL;
-        } else if (this.heartRate > 200) {
+        } else if (this.heartRate > 120) {
             this.healthWarningLevel = HealthWarningLevel.HIGH;
         } else {
             this.healthWarningLevel = HealthWarningLevel.NO_DATA;

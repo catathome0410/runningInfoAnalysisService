@@ -3,6 +3,9 @@ package demo.rest;
 import demo.domain.RunningInformation;
 import demo.service.RunningInformationAnalysisService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
@@ -29,8 +32,8 @@ public class RunningInformationRestController {
     }
 
     @RequestMapping(value = "/runningInfo", method = RequestMethod.GET)
-    public List<RunningInformation> findAllRunningInfo() {
-        return runningInformationAnalysisService.findAllRunningInformation();
+    public Page<RunningInformation> findAllRunningInfo(@RequestParam(name = "page") int page) {
+        return runningInformationAnalysisService.findAllRunningInformation(new PageRequest(page, 2, Sort.Direction.DESC, "healthWarningLevel") );
     }
 
     @RequestMapping(value = "/runningInfo/{id}", method = RequestMethod.DELETE)
